@@ -1,4 +1,4 @@
-package ua.ks.shtil.learning;
+package ua.ks.shtil.learning.src.ua.ks.shtil.learning;
 
 import java.util.UUID;
 

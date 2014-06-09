@@ -1,0 +1,4 @@
+Product{ id=21ec9a0e-31f0-4bd3-9e81-0ccdebed8c3c, name='TV', description='Description', price=12, warranty=24, url='http://shop.ua/1.php', classifierWeightsType=BIG, category=cars}
+Product{ id=bb14f943-eb09-46c1-b0ac-836c7b574f11, name='Car', description='Description od car', price=1, warranty=36, url='http://shop.ua/2.php', classifierWeightsType=BIG, category=cars}
+Product{ id=3a45dcec-a3eb-4742-997b-4aa1baf9f464, name='MOTO', description='Description of moto', price=1, warranty=24, url='http://shop.ua/3.php', classifierWeightsType=STANDARD, category=cars}
+Product{ id=f4b2d816-7ce8-407e-905c-92b276ff86ef, name='Suzuki', description='Description of suzuki', price=1, warranty=24, url='http://shop.ua/4.php', classifierWeightsType=BIG, category=cars}

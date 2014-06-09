@@ -1,0 +1,17 @@
+Order{client=Id :1
+Name: pupkin vasay
+Address: null
+Phone :null, 
+dateOfPlacement=Mon Jun 09 23:57:27 EEST 2014, 
+deliveryType=GROUND, 
+orderStatus=NEW, 
+orderPositionList= 
+	OrderPosition{id =2cd38360-c9f2-470d-90df-324e9933e636price=12.0, qty=1, product=Product{ id=21ec9a0e-31f0-4bd3-9e81-0ccdebed8c3c, name='TV', description='Description', price=12, warranty=24, url='http://shop.ua/1.php', classifierWeightsType=BIG, category=cars}
+}
+	OrderPosition{id =4af72dca-837d-4982-852e-24d03200700fprice=13.0, qty=2, product=Product{ id=bb14f943-eb09-46c1-b0ac-836c7b574f11, name='Car', description='Description od car', price=1, warranty=36, url='http://shop.ua/2.php', classifierWeightsType=BIG, category=cars}
+}
+	OrderPosition{id =b7b4770b-8380-463d-81ad-f92c3e5b421fprice=14.0, qty=3, product=Product{ id=3a45dcec-a3eb-4742-997b-4aa1baf9f464, name='MOTO', description='Description of moto', price=1, warranty=24, url='http://shop.ua/3.php', classifierWeightsType=STANDARD, category=cars}
+}
+	OrderPosition{id =c850a16a-4de6-4a5a-9e78-3203ad5f7594price=15.0, qty=4, product=Product{ id=f4b2d816-7ce8-407e-905c-92b276ff86ef, name='Suzuki', description='Description of suzuki', price=1, warranty=24, url='http://shop.ua/4.php', classifierWeightsType=BIG, category=cars}
+}
+	}

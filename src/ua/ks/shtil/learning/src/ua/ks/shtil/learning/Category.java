@@ -1,7 +1,6 @@
-package ua.ks.shtil.learning;
+package ua.ks.shtil.learning.src.ua.ks.shtil.learning;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by shtil on 04.06.14.

@@ -1,8 +1,7 @@
-package ua.ks.shtil.learning;
+package ua.ks.shtil.learning.src.ua.ks.shtil.learning;
 
 
 import java.io.*;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -128,11 +127,9 @@ public class Order {
             e.printStackTrace();
         }
 
-        String path = properties.getProperty("order.file");
-
         try (OutputStreamWriter fw =
                      new OutputStreamWriter(
-                             new FileOutputStream(path))) {
+                             new FileOutputStream(properties.getProperty("order.file")))) {
             fw.write(this.toString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();

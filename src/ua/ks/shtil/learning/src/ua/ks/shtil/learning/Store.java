@@ -1,8 +1,12 @@
-package ua.ks.shtil.learning;
+package ua.ks.shtil.learning.src.ua.ks.shtil.learning;
 
-import java.io.*;
-import java.util.*;
+import java.io.DataOutputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by shtil on 04.06.14.
@@ -16,8 +20,6 @@ public class Store {
     private List<Product> products;
     private HashMap<String, Integer> hashMap;
 
-    private static  List<Store> storeList = new ArrayList<>();
-
     public Store(String address) {
         this.id = UUID.randomUUID();
         this.address = address;
@@ -25,7 +27,6 @@ public class Store {
         this.hashMap = new HashMap<String, Integer>();
         System.out.println("with parameter");
 
-        storeList.add(this);
     }
 
     public String getAddress() {
@@ -125,7 +126,7 @@ public class Store {
                 "\n}";
     }
 
-    public static void showAllStores(){
+    public  void showAllStores(){
 
         System.out.println(" Details from all stores");
 
@@ -148,32 +149,5 @@ public class Store {
     public void loadAllStores(){
 
     }
-
-    public static void saveToFileAsText() {
-
-        Properties properties = new Properties();
-        try {
-            properties.load(new FileInputStream("settings.properties"));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        String path = properties.getProperty("store.file");
-
-        try (OutputStreamWriter fw =
-                     new OutputStreamWriter(
-                             new FileOutputStream(path))) {
-            fw.write("");
-            storeList.size();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
 
 }
