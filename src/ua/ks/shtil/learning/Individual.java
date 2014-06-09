@@ -16,6 +16,8 @@ public class Individual extends  Customer{
         this.license = license;
     }
 
+
+
     @Override
     public String toString(){
         String result = "Id :"+ this.getId()

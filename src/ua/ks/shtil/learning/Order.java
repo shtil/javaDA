@@ -22,7 +22,7 @@ public class Order {
     private DeliveryType deliveryType;
     private OrderStatus orderStatus;
 
-    private OrderPosition orderPosition;
+    private List<OrderPosition> orderPosition;
 
 
 
