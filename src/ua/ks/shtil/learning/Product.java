@@ -125,7 +125,7 @@ public class Product implements Serializable{
                      new BufferedWriter(
                              new FileWriter(path))) {
             for (Product product:productList) {
-                bufferedWriter.write(String.valueOf(product));
+              //  bufferedWriter.write(product);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
